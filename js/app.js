@@ -10,3 +10,14 @@ class Deportament {
         this.numberOfEmployees = deportament.numberOfEmployees;
     }
 }
+const inspectionDeportament = new Deportament({
+    devisionName: "Bedek",
+    departamentCode: 1500,
+    departamentName: "Inspection",
+    devisionCode: 1536,
+    employmentIndustry: "Airplane structure inspection",
+    nameOfDevisionDirector: "Melamed Avi",
+    nameOfDeportamentDirector: "Vladimir Vasilev",
+    numberOfEmployees: 8,
+});
+console.log(inspectionDeportament);
